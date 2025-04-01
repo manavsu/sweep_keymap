@@ -1,12 +1,12 @@
-{    "version": 1,
+{   "version": 1,
     "notes": "My awesome keymap",
     "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
     "keyboard": "ferris/0_1",
     "keymap": "default",
     "layout": "LAYOUT_split_3x5_2",
     "layers": [
-        ["KC_Q"        , "KC_W"        , "LT(4, KC_E)"    , "KC_R"          , "KC_T",
-         "KC_Y"        , "KC_U"        , "KC_I"           , "KC_O"          , "KC_P",
+        ["KC_Q"        , "LT(5, KC_W)" , "LT(4, KC_E)"    , "LT(3, KC_R)"   , "KC_T",
+         "KC_Y"        , "LT(3, KC_U)" , "LT(4, KC_I)"    , "LT(5, KC_O)"   , "KC_P",
 
          "LGUI_T(KC_A)", "LSFT_T(KC_S)", "LALT_T(KC_D)"   , "LCTL_T(KC_F)"  , "LGUI_T(KC_G)",
          "RGUI_T(KC_H)", "RCTL_T(KC_J)", "LALT_T(KC_K)"   , "RSFT_T(KC_L)"  , "RGUI_T(KC_SCLN)",
@@ -59,11 +59,11 @@
         ["KC_NO"       , "KC_NO"       , "KC_NO"          , "KC_ESC"         , "KC_NO",
          "KC_NO"       , "KC_NO"       , "KC_UP"          , "KC_NO"         , "KC_NO",
 
-         "KC_LGUI"     , "KC_LSFT"     , "KC_LALT"        , "KC_LCTL"       , "KC_NO",
+         "KC_LGUI"     , "KC_LSFT"     , "KC_LALT"        , "KC_LCTL"       , "KC_LGUI",
          "KC_ENT"       , "KC_LEFT"     , "KC_DOWN"        , "KC_RIGHT"      , "KC_NO",
 
          "KC_NO"       , "KC_NO"       , "KC_NO"          , "KC_NO"         , "KC_NO",
-         "KC_COLN"       , "KC_NO"       , "KC_NO"          , "KC_NO"         , "KC_NO",
+         "KC_NO"       , "KC_NO"       , "KC_NO"          , "KC_NO"         , "KC_NO",
 
          "KC_TRNS"       , "KC_TRNS"   ,
          "KC_TRNS"       , "KC_TRNS"
@@ -81,7 +81,7 @@
          "KC_TRNS"     , "KC_TRNS"
         ],
 
-        ["TG(2)"      , "TG(1)"       , "LGUI(KC_C)"     , "LGUI(KC_P)"    , "KC_NO",
+        ["TG(2)"      , "TG(1)"       , "LCTL(KC_C)"     , "LCTL(KC_P)"    , "KC_NO",
         "KC_NO"       , "KC_NO"       , "KC_NO"          , "KC_NO"         , "KC_NO",
 
         "KC_1"        , "KC_2"        , "KC_3"           , "KC_4"          , "KC_5",
